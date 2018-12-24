@@ -12,10 +12,10 @@ public class DunyalarSavasi
 		int sayac = 1;
 		
 		Scanner klavye = new Scanner(System.in);
-    Random rand = new Random();
+       		Random rand = new Random();
         
-    Dunyali []dunyali = new Dunyali[500]; 
-    Uzayli []uzayli = new Uzayli[500]; 
+    		Dunyali []dunyali = new Dunyali[500]; 
+    		Uzayli []uzayli = new Uzayli[500]; 
 		
 		while(son != -1)
 		{
@@ -77,6 +77,7 @@ public class DunyalarSavasi
 			System.out.println("Oyunu devam ettirmek icin -1 haric bir deger girin: ");
 			son = klavye.nextInt();
 		}
+		
 		System.out.printf("Oyun Bitti!\nToplam Oyun Puanı: %d", toplamPuan);
 	}
 } 
